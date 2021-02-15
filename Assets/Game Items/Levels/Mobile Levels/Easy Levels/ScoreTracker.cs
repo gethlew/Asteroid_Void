@@ -9,10 +9,24 @@ public class ScoreTracker : MonoBehaviour
     public Text ScoreTextLev1;
     public Text ScoreTextLev2;
     public Text ScoreTextLev3;
+    public Text ScoreTextLev4;
+    public Text ScoreTextLev5;
+    public Text ScoreTextLev6;
+    public Text ScoreTextLev7;
+    public Text ScoreTextLev8;
+    public Text ScoreTextLev9;
+    public Text ScoreTextLev10;
 
     public Text lev1HighScore;
     public Text lev2HighScore;
     public Text lev3HighScore;
+    public Text lev4HighScore;
+    public Text lev5HighScore;
+    public Text lev6HighScore;
+    public Text lev7HighScore;
+    public Text lev8HighScore;
+    public Text lev9HighScore;
+    public Text lev10HighScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +67,69 @@ public class ScoreTracker : MonoBehaviour
 
 
     }
+
+    public void addLev4Score()
+    {
+        string score = ScoreTextLev4.text = (int.Parse(ScoreTextLev4.text)).ToString();
+
+        PlayerPrefs.SetString("Level4", score);
+
+
+    }
+
+    public void addLev5Score()
+    {
+        string score = ScoreTextLev5.text = (int.Parse(ScoreTextLev5.text)).ToString();
+
+        PlayerPrefs.SetString("Level5", score);
+
+
+    }
+
+    public void addLev6Score()
+    {
+        string score = ScoreTextLev6.text = (int.Parse(ScoreTextLev6.text)).ToString();
+
+        PlayerPrefs.SetString("Level6", score);
+
+
+    }
+
+    public void addLev7Score()
+    {
+        string score = ScoreTextLev7.text = (int.Parse(ScoreTextLev7.text)).ToString();
+
+        PlayerPrefs.SetString("Level7", score);
+
+
+    }
+    public void addLev8Score()
+    {
+        string score = ScoreTextLev8.text = (int.Parse(ScoreTextLev8.text)).ToString();
+
+        PlayerPrefs.SetString("Level8", score);
+
+
+    }
+
+    public void addLev9Score()
+    {
+        string score = ScoreTextLev9.text = (int.Parse(ScoreTextLev9.text)).ToString();
+
+        PlayerPrefs.SetString("Level9", score);
+
+
+    }
+
+    public void addLev10Score()
+    {
+        string score = ScoreTextLev10.text = (int.Parse(ScoreTextLev10.text)).ToString();
+
+        PlayerPrefs.SetString("Level10", score);
+
+
+    }
+
     public void nextLevel()
     {
         var currentScene = SceneManager.GetActiveScene().buildIndex;
