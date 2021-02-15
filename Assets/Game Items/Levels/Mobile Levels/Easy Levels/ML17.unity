@@ -1029,7 +1029,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1137076396}
-        m_MethodName: addLev2Score
+        m_MethodName: addLev7Score
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

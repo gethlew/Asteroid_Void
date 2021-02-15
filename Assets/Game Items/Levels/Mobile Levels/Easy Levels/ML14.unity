@@ -1563,7 +1563,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1137076396}
-        m_MethodName: addLev1Score
+        m_MethodName: addLev4Score
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5403,9 +5403,23 @@ MonoBehaviour:
   ScoreTextLev1: {fileID: 286315928}
   ScoreTextLev2: {fileID: 0}
   ScoreTextLev3: {fileID: 0}
+  ScoreTextLev4: {fileID: 0}
+  ScoreTextLev5: {fileID: 0}
+  ScoreTextLev6: {fileID: 0}
+  ScoreTextLev7: {fileID: 0}
+  ScoreTextLev8: {fileID: 0}
+  ScoreTextLev9: {fileID: 0}
+  ScoreTextLev10: {fileID: 0}
   lev1HighScore: {fileID: 0}
   lev2HighScore: {fileID: 0}
   lev3HighScore: {fileID: 0}
+  lev4HighScore: {fileID: 0}
+  lev5HighScore: {fileID: 0}
+  lev6HighScore: {fileID: 0}
+  lev7HighScore: {fileID: 0}
+  lev8HighScore: {fileID: 0}
+  lev9HighScore: {fileID: 0}
+  lev10HighScore: {fileID: 0}
 --- !u!1001 &1157442482
 PrefabInstance:
   m_ObjectHideFlags: 0
