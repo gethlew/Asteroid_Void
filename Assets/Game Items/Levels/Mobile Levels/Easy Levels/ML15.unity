@@ -3724,11 +3724,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c694885c3dd4bb34f9a1e98163454788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreTextLev1: {fileID: 286315928}
+  ScoreTextLev1: {fileID: 0}
   ScoreTextLev2: {fileID: 0}
   ScoreTextLev3: {fileID: 0}
   ScoreTextLev4: {fileID: 0}
-  ScoreTextLev5: {fileID: 0}
+  ScoreTextLev5: {fileID: 286315928}
   ScoreTextLev6: {fileID: 0}
   ScoreTextLev7: {fileID: 0}
   ScoreTextLev8: {fileID: 0}

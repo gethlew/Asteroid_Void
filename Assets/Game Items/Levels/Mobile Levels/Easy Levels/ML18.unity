@@ -3937,12 +3937,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreTextLev1: {fileID: 0}
   ScoreTextLev2: {fileID: 0}
-  ScoreTextLev3: {fileID: 286315928}
+  ScoreTextLev3: {fileID: 0}
   ScoreTextLev4: {fileID: 0}
   ScoreTextLev5: {fileID: 0}
   ScoreTextLev6: {fileID: 0}
   ScoreTextLev7: {fileID: 0}
-  ScoreTextLev8: {fileID: 0}
+  ScoreTextLev8: {fileID: 286315928}
   ScoreTextLev9: {fileID: 0}
   ScoreTextLev10: {fileID: 0}
   lev1HighScore: {fileID: 0}

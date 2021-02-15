@@ -33,6 +33,17 @@ public class ScoreTracker : MonoBehaviour
         lev1HighScore.text = PlayerPrefs.GetString("Level1").ToString();
         lev2HighScore.text = PlayerPrefs.GetString("Level2").ToString();
         lev3HighScore.text = PlayerPrefs.GetString("Level3").ToString();
+        lev4HighScore.text = PlayerPrefs.GetString("Level4").ToString();
+        lev5HighScore.text = PlayerPrefs.GetString("Level5").ToString();
+        lev6HighScore.text = PlayerPrefs.GetString("Level6").ToString();
+        lev7HighScore.text = PlayerPrefs.GetString("Level7").ToString();
+        lev8HighScore.text = PlayerPrefs.GetString("Level8").ToString();
+        lev9HighScore.text = PlayerPrefs.GetString("Level9").ToString();
+        lev10HighScore.text = PlayerPrefs.GetString("Level10").ToString();
+
+
+
+
     }
 
     // Update is called once per frame

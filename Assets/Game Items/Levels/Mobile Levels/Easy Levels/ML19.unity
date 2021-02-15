@@ -3412,6 +3412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 910087470, guid: 5500ac12a875cbb45bcc963c904999a8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1598026931510937714, guid: 5500ac12a875cbb45bcc963c904999a8,
         type: 3}
       propertyPath: m_Name
@@ -3425,7 +3429,7 @@ PrefabInstance:
     - target: {fileID: 7280581852989782988, guid: 5500ac12a875cbb45bcc963c904999a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 62.67344
+      value: 49.77
       objectReference: {fileID: 0}
     - target: {fileID: 7280581852989782988, guid: 5500ac12a875cbb45bcc963c904999a8,
         type: 3}
@@ -5400,7 +5404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c694885c3dd4bb34f9a1e98163454788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreTextLev1: {fileID: 286315928}
+  ScoreTextLev1: {fileID: 0}
   ScoreTextLev2: {fileID: 0}
   ScoreTextLev3: {fileID: 0}
   ScoreTextLev4: {fileID: 0}
@@ -5408,7 +5412,7 @@ MonoBehaviour:
   ScoreTextLev6: {fileID: 0}
   ScoreTextLev7: {fileID: 0}
   ScoreTextLev8: {fileID: 0}
-  ScoreTextLev9: {fileID: 0}
+  ScoreTextLev9: {fileID: 286315928}
   ScoreTextLev10: {fileID: 0}
   lev1HighScore: {fileID: 0}
   lev2HighScore: {fileID: 0}
@@ -8524,7 +8528,7 @@ PrefabInstance:
     - target: {fileID: 8917800784978029353, guid: 71aa212566070904ea7c80a844f2f5bf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58.531517
+      value: 43.1
       objectReference: {fileID: 0}
     - target: {fileID: 8917800784978029353, guid: 71aa212566070904ea7c80a844f2f5bf,
         type: 3}
@@ -8534,7 +8538,7 @@ PrefabInstance:
     - target: {fileID: 8917800784978029353, guid: 71aa212566070904ea7c80a844f2f5bf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.825
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 8917800784978029353, guid: 71aa212566070904ea7c80a844f2f5bf,
         type: 3}

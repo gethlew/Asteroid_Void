@@ -2754,15 +2754,15 @@ MonoBehaviour:
   ScoreTextLev9: {fileID: 0}
   ScoreTextLev10: {fileID: 0}
   lev1HighScore: {fileID: 1714045817}
-  lev2HighScore: {fileID: 0}
-  lev3HighScore: {fileID: 0}
-  lev4HighScore: {fileID: 0}
-  lev5HighScore: {fileID: 0}
-  lev6HighScore: {fileID: 0}
-  lev7HighScore: {fileID: 0}
-  lev8HighScore: {fileID: 0}
-  lev9HighScore: {fileID: 0}
-  lev10HighScore: {fileID: 0}
+  lev2HighScore: {fileID: 2132588567}
+  lev3HighScore: {fileID: 1781065105}
+  lev4HighScore: {fileID: 1097408222}
+  lev5HighScore: {fileID: 683127078}
+  lev6HighScore: {fileID: 1554365903}
+  lev7HighScore: {fileID: 232661598}
+  lev8HighScore: {fileID: 508009069}
+  lev9HighScore: {fileID: 1575979470}
+  lev10HighScore: {fileID: 292594334}
 --- !u!1 &301868545
 GameObject:
   m_ObjectHideFlags: 0
