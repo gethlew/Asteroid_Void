@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Items/Levels/Mobile Levels/Easy Levels/ML20.unity
     guid: fcb0b8d48066faf4ba9bc05b507d5c9b
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Mobile Levels/MedL1.unity
+    guid: 9f5655eb0ac5de14c91180fa287bc5c4
   m_configObjects: {}
