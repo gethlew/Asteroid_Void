@@ -712,7 +712,7 @@ Transform:
   m_LocalScale: {x: 90, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &246710749
 GameObject:
@@ -881,7 +881,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1137076396}
-        m_MethodName: addLev1Score
+        m_MethodName: addLev2Score
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1265,7 +1265,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389831892
 GameObject:
@@ -1359,7 +1359,7 @@ Transform:
   m_LocalScale: {x: 19.397, y: 19.397, z: 19.397}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 90}
 --- !u!1001 &391295626
 PrefabInstance:
@@ -3225,7 +3225,7 @@ Transform:
   m_LocalScale: {x: 300, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &963465066
 BoxCollider:
@@ -3568,11 +3568,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137076392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c694885c3dd4bb34f9a1e98163454788, type: 3}
+  m_Script: {fileID: 11500000, guid: caf34051b0035ef4e9e908c645daa924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreTextLev1: {fileID: 286315928}
-  ScoreTextLev2: {fileID: 0}
+  ScoreTextLev1: {fileID: 0}
+  ScoreTextLev2: {fileID: 286315928}
   ScoreTextLev3: {fileID: 0}
   ScoreTextLev4: {fileID: 0}
   ScoreTextLev5: {fileID: 0}
@@ -5133,7 +5133,7 @@ Transform:
   m_LocalScale: {x: 300, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2005779332
 GameObject:
