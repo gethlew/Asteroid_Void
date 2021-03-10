@@ -75,27 +75,74 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
-
-    public void MediumLevel1()
+    public void Level6()
     {
         SceneManager.LoadScene(6);
     }
-    public void MediumLevel2()
+
+    public void Level7()
     {
         SceneManager.LoadScene(7);
     }
-    public void MediumLevel3()
+
+    public void Level8()
     {
         SceneManager.LoadScene(8);
     }
 
-    public void MediumLevel4()
+    public void Level9()
     {
         SceneManager.LoadScene(9);
     }
 
-    public void MediumLevel5()
+    public void Level10()
     {
         SceneManager.LoadScene(10);
+    }
+
+    public void MediumLevel1()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void MediumLevel2()
+    {
+        SceneManager.LoadScene(12);
+    }
+    public void MediumLevel3()
+    {
+        SceneManager.LoadScene(13);
+    }
+
+    public void MediumLevel4()
+    {
+        SceneManager.LoadScene(14);
+    }
+
+    public void MediumLevel5()
+    {
+        SceneManager.LoadScene(15);
+    }
+
+    public void MediumLevel6()
+    {
+        SceneManager.LoadScene(16);
+    }
+    public void MediumLevel7()
+    {
+        SceneManager.LoadScene(17);
+    }
+    public void MediumLevel8()
+    {
+        SceneManager.LoadScene(18);
+    }
+
+    public void MediumLevel9()
+    {
+        SceneManager.LoadScene(19);
+    }
+
+    public void MediumLevel10()
+    {
+        SceneManager.LoadScene(20);
     }
 }
