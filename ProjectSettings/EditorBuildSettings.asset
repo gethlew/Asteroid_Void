@@ -104,4 +104,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL3.unity
     guid: 5203572681b76534e87201b2849ba072
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL4.unity
+    guid: 744f182585fcd1349a5104dab83c7d6a
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL5.unity
+    guid: a8e986c8f18dc8b4baf427ed67f1b990
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL6.unity
+    guid: 4d7314e72deadd749ba713511eab9ddc
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL7.unity
+    guid: bbc733d3717ecd04aabaadb59cff098b
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL8.unity
+    guid: 953f7be6193da3b4c9cc8ecb84397608
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL9.unity
+    guid: b7c442940595b904eb20b4319d9f4b19
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL10.unity
+    guid: fd614e57953f7bd4ebc2b1a30c70016b
   m_configObjects: {}
