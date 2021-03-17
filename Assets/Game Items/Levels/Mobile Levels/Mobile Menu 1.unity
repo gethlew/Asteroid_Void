@@ -2926,8 +2926,8 @@ GameObject:
   - component: {fileID: 301598561}
   - component: {fileID: 301598560}
   - component: {fileID: 301598563}
-  - component: {fileID: 301598569}
   - component: {fileID: 301598581}
+  - component: {fileID: 301598567}
   - component: {fileID: 301598565}
   - component: {fileID: 301598564}
   - component: {fileID: 301598566}
@@ -3120,7 +3120,7 @@ MonoBehaviour:
   - {fileID: 1060241248}
   - {fileID: 1113658927}
   ScoreLev10: {fileID: 292594334}
---- !u!114 &301598569
+--- !u!114 &301598567
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3129,7 +3129,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 301598559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fde9a1125be7d3459e3b84869eb4007, type: 3}
+  m_Script: {fileID: 11500000, guid: 453cf083ef3e03944a4a3021c526971a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Lev1Stars:
@@ -3151,47 +3151,47 @@ MonoBehaviour:
   - {fileID: 875459902}
   ScoreLev3: {fileID: 1781065105}
   Lev4Stars:
-  - {fileID: 1935663008}
-  - {fileID: 584804730}
-  - {fileID: 101208166}
-  - {fileID: 904061302}
-  ScoreLev4: {fileID: 92957062}
+  - {fileID: 994920228}
+  - {fileID: 1574720590}
+  - {fileID: 1939552531}
+  - {fileID: 1946323076}
+  ScoreLev4: {fileID: 1097408222}
   Lev5Stars:
-  - {fileID: 300410545}
-  - {fileID: 1813111757}
-  - {fileID: 1151613129}
-  - {fileID: 1000056855}
-  ScoreLev5: {fileID: 1022735776}
+  - {fileID: 1289470764}
+  - {fileID: 1353875598}
+  - {fileID: 1771435760}
+  - {fileID: 2114784430}
+  ScoreLev5: {fileID: 683127078}
   Lev6Stars:
-  - {fileID: 600461533}
-  - {fileID: 1002110664}
-  - {fileID: 1775599919}
-  - {fileID: 1905694449}
-  ScoreLev6: {fileID: 441157462}
+  - {fileID: 292329494}
+  - {fileID: 152593826}
+  - {fileID: 1839331107}
+  - {fileID: 1825266951}
+  ScoreLev6: {fileID: 1554365903}
   Lev7Stars:
-  - {fileID: 308929535}
-  - {fileID: 1217980339}
-  - {fileID: 1739589821}
-  - {fileID: 328833478}
-  ScoreLev7: {fileID: 1192442649}
+  - {fileID: 1141757906}
+  - {fileID: 1717537449}
+  - {fileID: 1730705034}
+  - {fileID: 300694566}
+  ScoreLev7: {fileID: 232661598}
   Lev8Stars:
-  - {fileID: 75367078}
-  - {fileID: 1415943108}
-  - {fileID: 973167146}
-  - {fileID: 1551667563}
-  ScoreLev8: {fileID: 1042080231}
+  - {fileID: 2027320046}
+  - {fileID: 1743585766}
+  - {fileID: 1844876506}
+  - {fileID: 2134369183}
+  ScoreLev8: {fileID: 508009069}
   Lev9Stars:
-  - {fileID: 1051243882}
-  - {fileID: 635024931}
-  - {fileID: 823915540}
-  - {fileID: 2137716231}
-  ScoreLev9: {fileID: 292107809}
+  - {fileID: 255150472}
+  - {fileID: 377812381}
+  - {fileID: 529678904}
+  - {fileID: 629974024}
+  ScoreLev9: {fileID: 1575979470}
   Lev10Stars:
-  - {fileID: 1455634067}
-  - {fileID: 1978331966}
-  - {fileID: 1518513568}
-  - {fileID: 2111119257}
-  ScoreLev10: {fileID: 1496418545}
+  - {fileID: 268979280}
+  - {fileID: 193748558}
+  - {fileID: 1060241248}
+  - {fileID: 1113658927}
+  ScoreLev10: {fileID: 292594334}
 --- !u!114 &301598581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3746,7 +3746,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev1
         m_Mode: 1
         m_Arguments:
@@ -3757,7 +3757,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev2
         m_Mode: 1
         m_Arguments:
@@ -3768,7 +3768,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev3
         m_Mode: 1
         m_Arguments:
@@ -3779,7 +3779,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev4
         m_Mode: 1
         m_Arguments:
@@ -3790,7 +3790,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev5
         m_Mode: 1
         m_Arguments:
@@ -3801,7 +3801,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev6
         m_Mode: 1
         m_Arguments:
@@ -3812,7 +3812,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev7
         m_Mode: 1
         m_Arguments:
@@ -3823,7 +3823,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev8
         m_Mode: 1
         m_Arguments:
@@ -3834,7 +3834,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev9
         m_Mode: 1
         m_Arguments:
@@ -3845,7 +3845,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598566}
         m_MethodName: starsLev10
         m_Mode: 1
         m_Arguments:
@@ -7565,7 +7565,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev1
         m_Mode: 1
         m_Arguments:
@@ -7576,7 +7576,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev2
         m_Mode: 1
         m_Arguments:
@@ -7587,7 +7587,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev3
         m_Mode: 1
         m_Arguments:
@@ -7598,7 +7598,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev4
         m_Mode: 1
         m_Arguments:
@@ -7609,7 +7609,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev5
         m_Mode: 1
         m_Arguments:
@@ -7620,7 +7620,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev6
         m_Mode: 1
         m_Arguments:
@@ -7631,7 +7631,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev7
         m_Mode: 1
         m_Arguments:
@@ -7642,7 +7642,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev8
         m_Mode: 1
         m_Arguments:
@@ -7653,7 +7653,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev9
         m_Mode: 1
         m_Arguments:
@@ -7664,7 +7664,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 301598567}
         m_MethodName: starsLev10
         m_Mode: 1
         m_Arguments:
@@ -15162,7 +15162,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev1
         m_Mode: 1
         m_Arguments:
@@ -15173,7 +15173,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev2
         m_Mode: 1
         m_Arguments:
@@ -15184,7 +15184,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev3
         m_Mode: 1
         m_Arguments:
@@ -15195,7 +15195,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev4
         m_Mode: 1
         m_Arguments:
@@ -15206,7 +15206,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev5
         m_Mode: 1
         m_Arguments:
@@ -15217,7 +15217,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev6
         m_Mode: 1
         m_Arguments:
@@ -15228,7 +15228,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev7
         m_Mode: 1
         m_Arguments:
@@ -15239,7 +15239,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev8
         m_Mode: 1
         m_Arguments:
@@ -15250,7 +15250,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev9
         m_Mode: 1
         m_Arguments:
@@ -15261,7 +15261,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598569}
+      - m_Target: {fileID: 0}
         m_MethodName: starsLev10
         m_Mode: 1
         m_Arguments:

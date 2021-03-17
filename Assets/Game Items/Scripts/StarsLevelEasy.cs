@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StarsLevel : MonoBehaviour
+public class StarsLevelEasy : MonoBehaviour
 {
 
     public GameObject[] Lev1Stars;
@@ -150,7 +150,7 @@ public class StarsLevel : MonoBehaviour
             Lev3Stars[2].SetActive(false);
             Lev3Stars[3].SetActive(true);
         }
-        else
+       else
         {
             Lev3Stars[0].SetActive(false);
             Lev3Stars[1].SetActive(false);
