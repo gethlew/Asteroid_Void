@@ -62,15 +62,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1547795519888896607, guid: 7abd2147f4cf21f45bd7d508f180d967,
+        type: 3}
+      propertyPath: m_TagString
+      value: fruit
+      objectReference: {fileID: 0}
     - target: {fileID: 1846213885187407419, guid: 7abd2147f4cf21f45bd7d508f180d967,
         type: 3}
       propertyPath: m_Name
-      value: GreenApple
+      value: fruit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846213885187407419, guid: 7abd2147f4cf21f45bd7d508f180d967,
+        type: 3}
+      propertyPath: m_TagString
+      value: fruit
       objectReference: {fileID: 0}
     - target: {fileID: 3679084566664997686, guid: 7abd2147f4cf21f45bd7d508f180d967,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5d99e1f133ac90b4cafc44aceb1a4d18, type: 2}
+    - target: {fileID: 5551337394106198585, guid: 7abd2147f4cf21f45bd7d508f180d967,
+        type: 3}
+      propertyPath: movementVector.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551337394106198585, guid: 7abd2147f4cf21f45bd7d508f180d967,
+        type: 3}
+      propertyPath: movementVector.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521959934664307485, guid: 7abd2147f4cf21f45bd7d508f180d967,
+        type: 3}
+      propertyPath: m_TagString
+      value: fruit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7abd2147f4cf21f45bd7d508f180d967, type: 3}

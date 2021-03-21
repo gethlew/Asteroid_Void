@@ -12,6 +12,7 @@ TagManager:
   - slow
   - Bull
   - life
+  - fruit
   layers:
   - Default
   - TransparentFX

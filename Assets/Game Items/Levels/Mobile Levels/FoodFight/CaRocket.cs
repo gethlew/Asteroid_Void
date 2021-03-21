@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CaRocket : MonoBehaviour
 {
-
+    [SerializeField] ParticleSystem particleSystem;
     Rigidbody rigidBody;
 
     private float moveSpeed, jumpForce;
@@ -70,17 +70,19 @@ public class CaRocket : MonoBehaviour
         if (moveLeft)
         {
             rigidBody.velocity = new Vector3(-moveSpeed, 0f);
-
+            particleSystem.Stop();
         }
 
         if (moveRight)
         {
             rigidBody.velocity = new Vector3(moveSpeed, 0f);
+            particleSystem.Stop();
         }
 
        if (moveUp)
         {
             rigidBody.AddRelativeForce(Vector3.up * 10f);
+            particleSystem.Play();
         }
         if (life == 0)
         {
@@ -186,6 +188,10 @@ public class CaRocket : MonoBehaviour
         if (col.tag == "star")
         {
             scoreText.text = (int.Parse(scoreText.text) + 5).ToString();
+            Destroy(col.gameObject);
+        }
+        if (col.tag == "fruit")
+        {
             Destroy(col.gameObject);
         }
         if (col.tag == "life")
