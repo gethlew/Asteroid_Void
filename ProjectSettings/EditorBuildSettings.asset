@@ -125,4 +125,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Items/Levels/Mobile Levels/Medium Levels/MedL10.unity
     guid: fd614e57953f7bd4ebc2b1a30c70016b
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Hard Levels/HardL1.unity
+    guid: a8549593bb246ed4cb8c3f62744e5c52
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Hard Levels/HardL2.unity
+    guid: 73f18c8a9988c604a8eabff8ed0fda60
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Hard Levels/HardL3.unity
+    guid: f3b7504e5ce117d4fb7535eeace459ad
   m_configObjects: {}
