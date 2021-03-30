@@ -6313,12 +6313,12 @@ PrefabInstance:
     - target: {fileID: 6803768306712465415, guid: 467dbc50cd2702148a7a796ce8ccb2a9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.06
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 6803768306712465415, guid: 467dbc50cd2702148a7a796ce8ccb2a9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.83
+      value: 0.08
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6476578991905952098, guid: 467dbc50cd2702148a7a796ce8ccb2a9, type: 3}
