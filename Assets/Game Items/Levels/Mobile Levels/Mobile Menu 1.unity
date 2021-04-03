@@ -2454,6 +2454,7 @@ GameObject:
   - component: {fileID: 301598564}
   - component: {fileID: 301598566}
   - component: {fileID: 301598568}
+  - component: {fileID: 301598569}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2787,6 +2788,38 @@ MonoBehaviour:
   - {fileID: 419320726}
   - {fileID: 234857951}
   ScoreLev10: {fileID: 2079291219}
+--- !u!114 &301598569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301598559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6147eadb7abf55f48a7d3e626f55aed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreTextLev1: {fileID: 0}
+  ScoreTextLev2: {fileID: 0}
+  ScoreTextLev3: {fileID: 0}
+  ScoreTextLev4: {fileID: 0}
+  ScoreTextLev5: {fileID: 0}
+  ScoreTextLev6: {fileID: 0}
+  ScoreTextLev7: {fileID: 0}
+  ScoreTextLev8: {fileID: 0}
+  ScoreTextLev9: {fileID: 0}
+  ScoreTextLev10: {fileID: 0}
+  lev1HighScore: {fileID: 1196360948}
+  lev2HighScore: {fileID: 587789834}
+  lev3HighScore: {fileID: 573491832}
+  lev4HighScore: {fileID: 43102656}
+  lev5HighScore: {fileID: 1828140605}
+  lev6HighScore: {fileID: 1320242507}
+  lev7HighScore: {fileID: 642862134}
+  lev8HighScore: {fileID: 760053661}
+  lev9HighScore: {fileID: 1776392169}
+  lev10HighScore: {fileID: 2079291219}
 --- !u!114 &301598581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3990,7 +4023,7 @@ RectTransform:
   m_LocalScale: {x: 0.21879905, y: 0.5169727, z: 0}
   m_Children: []
   m_Father: {fileID: 1132518116}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6593,7 +6626,7 @@ RectTransform:
   m_LocalScale: {x: 1.0939953, y: 1.0339456, z: 0}
   m_Children: []
   m_Father: {fileID: 1132518116}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10430,11 +10463,11 @@ RectTransform:
   m_LocalScale: {x: 0.83433735, y: 0.44139713, z: 0.7113457}
   m_Children:
   - {fileID: 1211557885}
-  - {fileID: 1776392168}
   - {fileID: 834365086}
   - {fileID: 437630644}
   - {fileID: 1245996161}
   - {fileID: 1735583480}
+  - {fileID: 1776392168}
   m_Father: {fileID: 1832072244}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12007,7 +12040,7 @@ RectTransform:
   m_LocalScale: {x: 0.21879905, y: 0.5169727, z: 0}
   m_Children: []
   m_Father: {fileID: 1132518116}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15940,7 +15973,7 @@ RectTransform:
   m_LocalScale: {x: 0.21879905, y: 0.5169727, z: 0}
   m_Children: []
   m_Father: {fileID: 1132518116}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16604,7 +16637,7 @@ RectTransform:
   m_LocalScale: {x: 1.4834577, y: 2.8040602, z: 1.7399476}
   m_Children: []
   m_Father: {fileID: 1132518116}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16624,7 +16657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -19327,12 +19360,111 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 301598559}
-        m_MethodName: 
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 301598568}
+        m_MethodName: starsLev10
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
