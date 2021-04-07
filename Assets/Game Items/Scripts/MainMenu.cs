@@ -145,4 +145,50 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(20);
     }
+
+    public void HardLevel1()
+    {
+        SceneManager.LoadScene(21);
+    }
+    public void HardLevel2()
+    {
+        SceneManager.LoadScene(22);
+    }
+    public void HardLevel3()
+    {
+        SceneManager.LoadScene(23);
+    }
+
+    public void HardLevel4()
+    {
+        SceneManager.LoadScene(24);
+    }
+
+    public void HardLevel5()
+    {
+        SceneManager.LoadScene(25);
+    }
+
+    public void HardLevel6()
+    {
+        SceneManager.LoadScene(26);
+    }
+    public void HardLevel7()
+    {
+        SceneManager.LoadScene(27);
+    }
+    public void HardLevel8()
+    {
+        SceneManager.LoadScene(28);
+    }
+
+    public void HardLevel9()
+    {
+        SceneManager.LoadScene(29);
+    }
+
+    public void HardLevel10()
+    {
+        SceneManager.LoadScene(30);
+    }
 }
