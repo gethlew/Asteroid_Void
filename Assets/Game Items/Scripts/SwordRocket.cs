@@ -45,6 +45,11 @@ public class SwordRocket : MonoBehaviour
             hearts[1].SetActive(true);
             hearts[2].SetActive(true);
         }
+        int currIndex = SceneManager.GetActiveScene().buildIndex;
+        if (currIndex > 30)
+        {
+            life = 1;
+        }
     }
     private void RespondToDebugKeys()
     {

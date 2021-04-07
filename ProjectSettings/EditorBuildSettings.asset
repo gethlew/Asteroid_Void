@@ -155,4 +155,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game Items/Levels/Mobile Levels/Hard Levels/HardL10.unity
     guid: 4c2bb92be1985ae4ab3d64d018b119f1
+  - enabled: 1
+    path: Assets/Game Items/Levels/Mobile Levels/Hard Levels/HardL11.unity
+    guid: 9fbf4aec55daf7446b0c64bbfc67df4d
   m_configObjects: {}
