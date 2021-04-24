@@ -30,10 +30,17 @@ public class SwordRocket : MonoBehaviour
 
     State state = State.Alive;
 
+    [SerializeField] AudioClip mainEngine;
+
+    [SerializeField] ParticleSystem mainEngineParticles;
+
+    AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
         moveSpeed = 5f;
         jumpForce = 500f;
         moveLeft = false;
@@ -148,6 +155,15 @@ public class SwordRocket : MonoBehaviour
     public void MoveUp()
     {
         moveUp = true;
+        //if (!audio.isPlaying) // so the sound doesn't layer
+        //{
+            audio.PlayOneShot(mainEngine);
+        //}
+        if (!mainEngineParticles.isPlaying)
+        {
+            mainEngineParticles.Play();
+        }
+
     }
     public void Jump()
     {
@@ -162,6 +178,8 @@ public class SwordRocket : MonoBehaviour
         //moveLeft = false;
         //moveRight = false;
         moveUp = false;
+        audio.Stop();
+        mainEngineParticles.Stop();
         //rigidBody.velocity = Vector3.zero;
     }
 

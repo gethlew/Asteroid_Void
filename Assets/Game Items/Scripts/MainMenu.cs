@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
         int nextSceneIndex = currentSceneIndex + 1;
         if (nextSceneIndex > PlayerPrefs.GetInt("levelAt"))
         {
-            PlayerPrefs.SetInt("levelAt", nextSceneIndex);
+            PlayerPrefs.SetInt("levelAt", 1);
         }
         if (nextSceneIndex == SceneManager.sceneCountInBuildSettings)
         {
