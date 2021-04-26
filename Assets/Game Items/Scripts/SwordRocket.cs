@@ -30,9 +30,15 @@ public class SwordRocket : MonoBehaviour
 
     State state = State.Alive;
 
-    [SerializeField] AudioClip mainEngine;
+    [SerializeField] float levelLoadDelay = 2f;
 
+    [SerializeField] AudioClip success;
+    [SerializeField] AudioClip mainEngine;
+    [SerializeField] AudioClip deathSound;
+
+    [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem mainEngineParticles;
+    [SerializeField] ParticleSystem deathSoundParticles;
 
     AudioSource audio;
 
@@ -97,6 +103,7 @@ public class SwordRocket : MonoBehaviour
         if (life == 0)
         {
             hearts[0].SetActive(false);
+            state = State.Dying;
             StartDeathSequence();
         }
         if (life == 2)
@@ -165,14 +172,14 @@ public class SwordRocket : MonoBehaviour
         }
 
     }
-    public void Jump()
+   /* public void Jump()
     {
        if (rigidBody.velocity.y == 0)
         {
             rigidBody.AddRelativeForce(Vector3.up * 0.2f);
         }
     }
-
+    */
     public void StopMoving()
     {
         //moveLeft = false;
@@ -228,6 +235,12 @@ public class SwordRocket : MonoBehaviour
     private void StartSuccessSequence()
     {
         state = State.Transcending;
+        audio.Stop();
+        audio.PlayOneShot(success);
+        if (!successParticles.isPlaying)
+        {
+            successParticles.Play();
+        }
         UIHandler.instance.ShowLevelDialog("Level Cleared", scoreText.text);
         Debug.Log("Score", scoreText);
         //Invoke("LoadNextScene", levelLoadDelay); //Paramaterise this time
@@ -236,6 +249,14 @@ public class SwordRocket : MonoBehaviour
     private void StartDeathSequence()
     {
         state = State.Dying;
+        audio.Stop();
+        audio.PlayOneShot(deathSound);
+        if (!deathSoundParticles.isPlaying)
+        {
+            deathSoundParticles.Play();
+            
+        }
+        Invoke("LoadCurrentScene", levelLoadDelay);
         UIHandler.instance.ShowLevelDialogFailed(); 
     }
     private void LoadFirstLevel()
