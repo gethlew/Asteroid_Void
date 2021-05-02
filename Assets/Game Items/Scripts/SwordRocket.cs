@@ -104,8 +104,19 @@ public class SwordRocket : MonoBehaviour
         {
             hearts[0].SetActive(false);
             state = State.Dying;
-            StartDeathSequence();
+            audio.Stop();
+            audio.PlayOneShot(deathSound);
+            if (!deathSoundParticles.isPlaying)
+            {
+                deathSoundParticles.Play();
+
+            }
             
+            //audio.Stop();
+            //Invoke("LoadCurrentScene", levelLoadDelay);
+            UIHandler.instance.ShowLevelDialogFailed();
+            deathSoundParticles.Stop();
+
         }
         if (life == 2)
         {
