@@ -100,24 +100,6 @@ public class SwordRocket : MonoBehaviour
         {
             rigidBody.AddRelativeForce(Vector3.up * 10f);
         }
-        if (life == 0)
-        {
-            hearts[0].SetActive(false);
-            state = State.Dying;
-            audio.Stop();
-            audio.PlayOneShot(deathSound);
-            if (!deathSoundParticles.isPlaying)
-            {
-                deathSoundParticles.Play();
-
-            }
-            
-            //audio.Stop();
-            //Invoke("LoadCurrentScene", levelLoadDelay);
-            UIHandler.instance.ShowLevelDialogFailed();
-            deathSoundParticles.Stop();
-
-        }
         if (life == 2)
         {
             hearts[0].SetActive(true);
@@ -135,6 +117,10 @@ public class SwordRocket : MonoBehaviour
             hearts[0].SetActive(true);
             hearts[1].SetActive(false);
             hearts[2].SetActive(false);
+        }
+        if (life == 0)
+        {
+            StartDeathSequence();
         }
         if (Debug.isDebugBuild)
         {
@@ -262,7 +248,7 @@ public class SwordRocket : MonoBehaviour
     {
         state = State.Dying;
         audio.Stop();
-        //audio.PlayOneShot(deathSound);
+        audio.PlayOneShot(deathSound);
         if (!deathSoundParticles.isPlaying)
         {
             deathSoundParticles.Play();

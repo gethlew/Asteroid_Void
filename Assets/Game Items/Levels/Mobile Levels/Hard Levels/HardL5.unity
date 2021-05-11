@@ -3716,6 +3716,10 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1353002058}
+    - target: {fileID: 790802383, guid: 9f61da88245a9ec43bd76052b6d018bb, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3bdeb6ba335cbb3489a669723c79954c, type: 3}
     - target: {fileID: 7585633648471415595, guid: 9f61da88245a9ec43bd76052b6d018bb,
         type: 3}
       propertyPath: m_Name
