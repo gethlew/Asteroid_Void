@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 818dd90b13a514c4da1d281eda3982c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 765805e137814194dab19838a75b2d4c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2116,7 +2116,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 818dd90b13a514c4da1d281eda3982c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3400ed25429beb848b592cfb51236eba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 818dd90b13a514c4da1d281eda3982c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10612d014d1d8a94abde5abbd14cc43b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3155,6 +3155,13 @@ MonoBehaviour:
   - {fileID: 1727029524}
   - {fileID: 1353002058}
   - {fileID: 0}
+  levelLoadDelay: 2
+  success: {fileID: 0}
+  mainEngine: {fileID: 0}
+  deathSound: {fileID: 0}
+  successParticles: {fileID: 0}
+  mainEngineParticles: {fileID: 0}
+  deathSoundParticles: {fileID: 0}
 --- !u!1 &801243436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6476578991905952101, guid: 467dbc50cd2702148a7a796ce8ccb2a9,
