@@ -120,6 +120,8 @@ public class SwordRocket : MonoBehaviour
         }
         if (life == 0)
         {
+            hearts[0].SetActive(false);
+            state = State.Dying;
             StartDeathSequence();
         }
         if (Debug.isDebugBuild)
@@ -197,6 +199,7 @@ public class SwordRocket : MonoBehaviour
             case "Friendly":
                 break;
             case "Finish":
+                StopMoving();
                 StartSuccessSequence();
                 break;
             default:
@@ -246,15 +249,16 @@ public class SwordRocket : MonoBehaviour
 
     private void StartDeathSequence()
     {
-        state = State.Dying;
-        audio.Stop();
-        audio.PlayOneShot(deathSound);
-        if (!deathSoundParticles.isPlaying)
-        {
-            deathSoundParticles.Play();
-            
-        }
-        audio.Stop();
+       state = State.Dying;
+       StopMoving();
+       // audio.Stop();
+       // audio.PlayOneShot(deathSound);
+       // if (!deathSoundParticles.isPlaying)
+       // {
+       //     deathSoundParticles.Play();
+       //     
+       // }
+       // audio.Stop();
         //Invoke("LoadCurrentScene", levelLoadDelay);
         UIHandler.instance.ShowLevelDialogFailed(); 
     }
