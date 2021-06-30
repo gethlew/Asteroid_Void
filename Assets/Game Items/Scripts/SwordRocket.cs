@@ -242,6 +242,7 @@ public class SwordRocket : MonoBehaviour
         {
             successParticles.Play();
         }
+
         UIHandler.instance.ShowLevelDialog("Level Cleared", scoreText.text);
         Debug.Log("Score", scoreText);
         //Invoke("LoadNextScene", levelLoadDelay); //Paramaterise this time
