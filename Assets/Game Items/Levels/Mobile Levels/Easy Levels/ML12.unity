@@ -2698,12 +2698,12 @@ MonoBehaviour:
   - {fileID: 1353002058}
   - {fileID: 0}
   levelLoadDelay: 2
-  success: {fileID: 0}
-  mainEngine: {fileID: 0}
-  deathSound: {fileID: 0}
-  successParticles: {fileID: 0}
-  mainEngineParticles: {fileID: 0}
-  deathSoundParticles: {fileID: 0}
+  success: {fileID: 8300000, guid: 52a428bdf2dbddc44acb99fda88977b7, type: 3}
+  mainEngine: {fileID: 8300000, guid: 0b28993df4da1c14ea2b95f40d88dcfb, type: 3}
+  deathSound: {fileID: 8300000, guid: 52a428bdf2dbddc44acb99fda88977b7, type: 3}
+  successParticles: {fileID: 970151007}
+  mainEngineParticles: {fileID: 970151006}
+  deathSoundParticles: {fileID: 970151005}
 --- !u!1 &801243436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6476578991905952101, guid: 467dbc50cd2702148a7a796ce8ccb2a9,
@@ -3209,6 +3209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 790802383, guid: 9f61da88245a9ec43bd76052b6d018bb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7585633648471415595, guid: 9f61da88245a9ec43bd76052b6d018bb,
         type: 3}
       propertyPath: m_Name
@@ -3273,6 +3277,24 @@ PrefabInstance:
     - {fileID: 616471281, guid: 9f61da88245a9ec43bd76052b6d018bb, type: 3}
     - {fileID: 1073503770, guid: 9f61da88245a9ec43bd76052b6d018bb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9f61da88245a9ec43bd76052b6d018bb, type: 3}
+--- !u!198 &970151005 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198204747048013322, guid: 9f61da88245a9ec43bd76052b6d018bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 970151004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &970151006 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198100717284808371, guid: 9f61da88245a9ec43bd76052b6d018bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 970151004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &970151007 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198631064976769208, guid: 9f61da88245a9ec43bd76052b6d018bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 970151004}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1054033256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3645,7 +3667,7 @@ MonoBehaviour:
   LevelDialog: {fileID: 588693622}
   UIButt: {fileID: 1188665352}
   Hearts: {fileID: 877426061}
-  LevelFailed: {fileID: 0}
+  LevelFailed: {fileID: 1192174020}
   LevelStatus: {fileID: 1494594137}
   scoreText: {fileID: 286315928}
 --- !u!114 &1137076395
@@ -4258,7 +4280,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0006713867, y: -0.005279541}
+  m_AnchoredPosition: {x: 0.0007324219, y: -0.0052490234}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1334834710
